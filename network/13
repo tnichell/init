@@ -1,0 +1,2 @@
+#ifconfig en0 | grep "netmask" | awk '{print $2}'| nslookup | grep name | awk '{print $4}' | rev | cut -c 2- | rev
+oa-j2.21-school.ru

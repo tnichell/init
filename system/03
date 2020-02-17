@@ -1,0 +1,2 @@
+Отредактировать /etc/hostname, затем снова выполнить:
+hostname <new_name>

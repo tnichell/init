@@ -1,0 +1,6 @@
+#if you have "killall: command not found" message
+#then use "sudo apt install psmisc" for install "killall"
+
+USER=$1
+sudo killall -u $USER
+sudo userdel -r $USER
